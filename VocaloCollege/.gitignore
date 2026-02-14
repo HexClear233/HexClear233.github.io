@@ -1,0 +1,3 @@
+totalDisplay
+Introduction
+# This .gitignore file is used to specify intentionally untracked files that Git should ignore. Files already tracked by Git are not affected. This file is typically used to avoid committing transient files from your working directory that aren’t useful to other collaborators, such as build artifacts or temporary files created by your IDE.
