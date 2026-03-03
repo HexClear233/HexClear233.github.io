@@ -1,6 +1,21 @@
 body {
     font-family: 'Microsoft YaHei', sans-serif;
+    font-family: 'Microsoft YaHei', sans-serif;
     line-height: 1.6;
+    color: #333;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #32c8ff;
+    text-align: center;
+}
+
+.background-image {
+    position: absolute;
     color: #333;
     max-width: 95%;
     margin: 0 auto;
@@ -68,10 +83,97 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.title {
+    /* background-image: url(CVA.png); */
+    background-color: rgba(57, 187, 182, 0.3);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: device-width;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.board-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #32c8ff;
+    border-radius: 5px;
+}
+
+.divide-line {
+    height: 3px;
+    background-color: #6ca;
+    border: none;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.column-logo {
+    width: auto;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     z-index: -1;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+.logo{
+    width: 40%;
+}
+
+.item-title {
+    background-color: #8190dc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font: bold 1.2em 'Microsoft YaHei', sans-serif;
+    color: white;
+}
+
+.guide-title {
+    background-color: #3232ff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font: bold 1.2em 'Microsoft YaHei', sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.guide-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
 
 .logo{
     width: 40%;
