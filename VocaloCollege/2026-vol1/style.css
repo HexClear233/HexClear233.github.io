@@ -1,0 +1,197 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #32c8ff;
+    text-align: center;
+
+}
+
+.logo {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.title {
+    /* background-image: url(CVA.png); */
+    background-color: rgba(57, 187, 182, 0.3);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: device-width;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divide-line {
+    height: 3px;
+    background-color: #6ca;
+    border: none;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.second-divide-line {
+    height: 3px;
+    background-color: rgba(57, 187, 182, 0.3);
+    border: none;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.type-divide-line {
+    height: 3px;
+    background-color: indianred;
+    border: none;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.year {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #32c8ff;
+    border-radius: 5px;
+}
+
+.year-title {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #32c8ff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.normal-bolded-title {
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.normal-title {
+    text-align: center;
+    align-items: center;
+    font-weight: 350;
+    background-color: rgb(108, 225, 178);
+
+}
+
+.notes{
+    text-align: center;
+    align-items: center;
+    border-spacing: 1px;
+    color:#39c5bb;
+    font-size: small;
+    justify-content: center;
+    border: 1px solid #39c5bb;
+}
+
+.list {
+    width: 100%;
+    height: 30%;
+    text-align: left;
+    align-items: center;
+    border-spacing: 11px;
+    border: 5px soild #39c5bb
+}
+
+.video {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-cover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.audio {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.xuhao {
+    width: 4%;
+    font-weight: bold;
+    background-color: aqua;
+    text-align: center;
+}
+
+.non-display-xuhao {
+    width: 4%;
+    font-weight: bold;
+    background-color: transparent;
+    text-align: center;
+}
+
+.sp-xuhao {
+    width: 4%;
+    font-weight: bold;
+    background-color: gold;
+    text-align: center;
+}
+
+.video-info {
+    width: auto;
+    height: 18%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.grade-rainbow {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    background-color: rgb(143, 225, 255);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grade-gold {
+    color: gold;
+}
+
+.grade-sliver {
+    color: silver;
+}
+.grade-copper {
+    color: rgb(202, 76, 30);
+}
