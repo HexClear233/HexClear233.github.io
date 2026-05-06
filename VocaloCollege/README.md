@@ -14,8 +14,8 @@
     align-items: center;
     justify-content: center;
     z-index: -1;">
-                <img src="./VocaloCollege/logo_横向_负色.png" style="width: 40%;">
-                <img src="./VocaloCollege/CVA.png" style="height: 100px;">
+                <img src="./logo_横向_负色.png" style="width: 40%;">
+                <img src="./CVA.png" style="height: 100px;">
 </p>
 
 
